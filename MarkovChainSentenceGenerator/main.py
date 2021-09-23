@@ -36,7 +36,7 @@ Media Contacts:
 Brian Bianco
 
 BCW for Inspiration4"""
-order = 10
+order = 2
 alldic = {} 
 
 for i in range(0 , len(text)-order):

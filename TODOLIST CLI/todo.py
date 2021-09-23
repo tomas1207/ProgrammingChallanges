@@ -24,5 +24,5 @@ class Todo:
         with open('TodoList.csv','r') as f:
             csvRead = csv.reader(f)
             for line in csvRead:
-                listOfTodos.append(Todo.create(line[0],line[1],line[2]))
+                listOfTodos.append(Todo.create(*line))
         return listOfTodos
